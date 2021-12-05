@@ -9,6 +9,7 @@
 #aboutme {
   color: whitesmoke;
   background-color: brown;
+  width: fit-content;
 }
 div {
   color: whitesmoke;
@@ -31,4 +32,16 @@ div {
 a {
   color: black;
   text-decoration: none;
+}
+.cssdeneme {
+  margin: 0;
+}
+.navbar {
+  background-color: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+.banner {
+  background-color: red;
 }
