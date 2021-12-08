@@ -4,6 +4,7 @@
   background: black;
   font-size: 48px;
   width: fit-content;
+  font-family: "Corinthia", cursive;
 }
 
 #aboutme {
@@ -11,11 +12,9 @@
   background-color: brown;
   width: fit-content;
 }
-div {
-  color: whitesmoke;
-  background-color: darkblue;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+#ragediv {
+  color: black;
+  background-color: gray;
   line-height: 2em;
 }
 .baslik {
@@ -32,16 +31,42 @@ div {
 a {
   color: black;
   text-decoration: none;
+  font-weight: bolder;
 }
 .cssdeneme {
-  margin: 0;
+  margin: 25px;
 }
 .navbar {
   background-color: blue;
-  height: 100px;
-  color: white;
-  font-size: 3rem;
+  padding: 20px;
+  margin-bottom: 0;
+  border: 10px solid purple;
+  border-radius: 30px;
 }
 .banner {
   background-color: red;
+  padding: 50px;
+  margin-top: 0px;
+  border: 20px dashed yellow;
+  border-radius: 45%;
+}
+#rage {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-style: italic;
+  text-indent: 50px;
+  text-align: right;
+}
+#aesthetic {
+  letter-spacing: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: overline;
+}
+.outline {
+  background-color: coral;
+  outline: 10px solid black;
+  outline-offset: 15px;
 }
