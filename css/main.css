@@ -23,7 +23,8 @@
   width: fit-content;
 }
 #indexbody {
-  background: rgba(10, 50, 200, 0.5);
+  background: url("/foto.jpg");
+  background-size: cover;
 }
 #aboutbody {
   background-color: rgba(95, 135, 35, 0.3);
